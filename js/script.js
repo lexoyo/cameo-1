@@ -1,4 +1,7 @@
 
+
+    window.silex = window.silex || {}
+    window.silex.data = {"site":{"width":1400},"pages":[{"id":"page-accueil","displayName":"accueil","link":{"linkType":"LinkTypePage","href":"#!page-accueil"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true},{"id":"page-grand-groupe","displayName":"Grand groupe","link":{"linkType":"LinkTypePage","href":"#!page-grand-groupe"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true},{"id":"page-entreprise-innovante","displayName":"Entreprise innovante","link":{"linkType":"LinkTypePage","href":"#!page-entreprise-innovante"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true},{"id":"page-politique-de-confidentialit-","displayName":"Politique de confidentialité","link":{"linkType":"LinkTypePage","href":"#!page-politique-de-confidentialit-"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true},{"id":"page-mentions-l-gales","displayName":"Mentions légales","link":{"linkType":"LinkTypePage","href":"#!page-mentions-l-gales"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true}]}
 /* animation on scroll widget */
 $(function() {
     var $animation_elements = $('.animation-element');
